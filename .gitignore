@@ -1,0 +1,10 @@
+node_modules
+/.idea/
+generated
+template.yaml
+.DS_STORE
+yarn-error.log
+.idea
+.vscode
+build
+subgraph.yaml

@@ -1,0 +1,7 @@
+{
+  "network": "mainnet",
+  "startBlock": "22873970",
+  "erc721": {
+    "address": "0x54514d2903923Cb6Dc93CD26d7C701865230c4A9"
+  }
+}
