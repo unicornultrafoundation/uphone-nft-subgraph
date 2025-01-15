@@ -6,9 +6,9 @@
     "build": "graph build",
     "prepare:mainnet": "mustache ./config/mainnet.json template.yaml > subgraph.yaml && mustache ./config/mainnet.json ./templateEnum.ts > ./src/const.ts",
     "prepare:testnet": "mustache ./config/testnet.json template.yaml > subgraph.yaml && mustache ./config/testnet.json ./templateEnum.ts > ./src/const.ts",
-    "create-local": "graph create --node http://localhost:8020/ u2u/nft-template",
-    "remove-local": "graph remove --node http://localhost:8020/ u2u/nft-template",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 u2u/nft-template",
+    "create-local": "graph create --node http://localhost:8020/ u2u/uphone-nft",
+    "remove-local": "graph remove --node http://localhost:8020/ u2u/uphone-nft",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 u2u/uphone-nft",
     "test": "graph test"
   },
   "dependencies": {
